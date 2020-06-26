@@ -1,4 +1,5 @@
 import requests
-url = "https://www.google.com.sa/?hl=ar"
-data = requests.get(url)
-print(data.text)
+url = "https://www.wikipedia.org/"
+html = requests.get(url)
+
+print(html.text)
