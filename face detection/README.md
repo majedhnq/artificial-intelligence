@@ -1,0 +1,1 @@
+# opencv example : face detection
